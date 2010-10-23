@@ -1,0 +1,37 @@
+PHP Retweeter, v1.0
+Michael A. Soares <me@mikesoares.com>
+Copyright (c) 2010, Michael A. Soares
+
+Last Modified: October 22, 2010
+
+-------------------------------------------------------------------
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/&gt;.
+
+-------------------------------------------------------------------
+
+=== Description ===
+PHP Retweeter will let you tweet, search for tweets, retweet found tweets,
+follow people that mention you, and more!
+
+=== Requirements ===
+Abraham Williams' OAuth library
+http://github.com/abraham/twitteroauth/tree/master/twitteroauth/
+
+Place these files in a folder called 'twitteroauth'.
+
+=== Usage ===
+Check example.php to find out about some of the functions you can call
+to use the Retweeter class. Check php_retweeter.php for all of the
+functions you can use.
