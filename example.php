@@ -8,11 +8,11 @@
 	$retweet_prefix = 'RT';
 	
 	// required
-	// get these values from http://twitter.com/apps after setting up an application
+	// get these values from http://dev.twitter.com/apps after setting up an application (select your app and click on My Access Token)
 	$access_token = '';
 	$access_token_secret = '';
 
-	// get these values from http://dev.twitter.com/apps after setting up an application (select your app and click on My Access Token)
+	// get these values from http://twitter.com/apps after setting up an application
 	$consumer_key = '';
 	$consumer_secret = '';
 
