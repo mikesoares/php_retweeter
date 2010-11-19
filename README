@@ -1,8 +1,8 @@
-PHP Retweeter, v1.0
+PHP Retweeter, v1.1
 Michael A. Soares <me@mikesoares.com>
 Copyright (c) 2010, Michael A. Soares
 
-Last Modified: October 22, 2010
+Last Modified: November 18, 2010
 
 -------------------------------------------------------------------
 
@@ -35,3 +35,7 @@ Place these files in a folder called 'twitteroauth'.
 Check example.php to find out about some of the functions you can call
 to use the Retweeter class. Check php_retweeter.php for all of the
 functions you can use.
+
+=== Change Log ===
+2010/11/18, v1.1: Added a some functions to call the API directly and to
+lookup users.

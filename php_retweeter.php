@@ -48,6 +48,41 @@ class Retweeter {
 		$this->oauth = new TwitterOAuth($consumer_key, $consumer_secret, $access_token, $access_token_secret);
 	}
 
+	/**
+	 * Call the API directly using GET
+	 *
+	 * @param string The API method
+	 * @param array An array of parameters to send the method
+	 */
+	public function getCall($call, $params) {
+		return $this->oauth->get($call, $params);
+	}
+
+	/**
+         * Call the API directly using POST
+         *
+         * @param string The API method
+         * @param array An array of parameters to send the method
+         */
+	public function postCall($post, $params) {
+		return $this->oauth->post($call, $params);
+	}
+
+	/**
+	 * Looks up user info
+	 *
+	 * @param string $username
+	 * @return mixed False if an error or no results, array of users if true
+	 */
+	public function lookupUsers($username) {
+                $response = $this->oauth->get('users/lookup', array('screen_name' => $username));
+
+		if(count($response) > 0 && !isset($response->errors)) {
+			return $response;
+		} else {
+			return false;
+		}
+        }
 
 	/**
 	 * Delete all direct messages (200 at a time)
