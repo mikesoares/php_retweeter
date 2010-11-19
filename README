@@ -37,5 +37,5 @@ to use the Retweeter class. Check php_retweeter.php for all of the
 functions you can use.
 
 === Change Log ===
-2010/11/18, v1.1: Added a some functions to call the API directly and to
+2010/11/18, v1.1: Added some functions to call the API directly and to
 lookup users.
