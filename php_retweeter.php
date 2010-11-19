@@ -25,7 +25,7 @@ require('twitteroauth/twitteroauth.php');
  * @author Michael A. Soares <me@mikesoares.com>
  * @copyright Copyright (c) 2010, Michael A. Soares
  *
- * @version 1.0
+ * @version 1.1
  */
 class Retweeter {
 
