@@ -53,8 +53,9 @@ class Retweeter {
 	 *
 	 * @param string The API method
 	 * @param array An array of parameters to send the method
+	 * @return mixed Whatever the API method returns
 	 */
-	public function getCall($call, $params) {
+	public function getCall($call, $params = array()) {
 		return $this->oauth->get($call, $params);
 	}
 
@@ -63,8 +64,9 @@ class Retweeter {
          *
          * @param string The API method
          * @param array An array of parameters to send the method
+	 * @return mixed Whatever the API method returns
          */
-	public function postCall($post, $params) {
+	public function postCall($post, $params = array()) {
 		return $this->oauth->post($call, $params);
 	}
 
